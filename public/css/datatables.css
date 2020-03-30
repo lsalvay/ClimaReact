@@ -1,0 +1,61 @@
+.dataTables_filter {
+    margin:0 0 0 0;
+    width:100%;
+    
+}
+.dataTables_length{
+    margin:0;
+    width:100%;
+    display: none!important
+}
+.dataTables_length label{
+    line-height: 3rem;
+    margin-right: 1rem;
+}
+.dataTables_wrapper .select-wrapper.mdb-select{
+    margin:0;
+    width:100%;
+}
+.pagination{
+    margin: 0;
+    justify-content: center
+}
+.pagination .active{
+    background-color: #e38700 
+}
+.dataTables_info{
+    width: 100%;
+    text-align: center;
+    margin-bottom:2rem;
+}
+
+@media (min-width: 576px) { 
+
+}
+
+
+@media (min-width: 768px) { 
+    .dataTables_length{
+        display: flex!important;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    .dataTables_filter {
+        margin:0 0 0 50%;
+        width:50%;        
+    }
+    .dataTables_length{
+        margin:0;
+        width:50%;
+    }
+    .dataTables_info{
+        text-align: left;
+        margin: 0;
+    }
+    .pagination{
+        justify-content: flex-end
+    }
+    
+}

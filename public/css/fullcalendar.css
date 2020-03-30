@@ -1,0 +1,30 @@
+.fc-button-primary{
+    background-color: #e38700 !important;
+    border-color: #e38700!important;
+    border-radius: 2px!important;
+    margin-right: .5rem!important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+.fc-button-primary:hover{
+    background-color: #d68101 !important;
+    border-color: #d68101!important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .6);
+}
+.fc-event-container{
+    color: white;
+    font-size: 1rem;
+    font-weight: normal
+}
+.fc-event, .fc-event-dot {
+    background-color: #e9a033!important;
+    border-color: #e9a033!important
+}
+.fc-event.selected{
+    background-color: #e38700!important;
+    border-color: #e38700!important
+}
+.fc-event.last-attended{
+    background-color: #ffe5bd!important;
+    border-color: #ffe5bd!important;
+    color:black !important
+}

@@ -1,0 +1,15 @@
+.select-wrapper{
+    padding-top: 0.1rem!important;
+}
+.select-label{
+    z-index: unset!important;
+    font-weight : 300;
+    font-size:1rem;
+    margin-bottom: .3rem;
+    top: 0rem!important;    
+}
+
+.select-label.active-check , .select-label.active{
+    top: 1.05rem!important;    
+    font-size:.8rem!important;
+}
